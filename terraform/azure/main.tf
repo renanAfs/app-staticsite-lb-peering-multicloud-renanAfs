@@ -38,3 +38,10 @@ resource "azurerm_virtual_network_peering" "vnet-peering" {
   virtual_network_name      = azurerm_virtual_network.vnat10.name
   remote_virtual_network_id = azurerm_virtual_network.vnat20.id
 }
+
+resource "azurerm_virtual_network_peering" "vnet-peering" {
+  name                      = "vnet-peering"
+  resource_group_name       = azurerm_resource_group.rg.name
+  virtual_network_name      = azurerm_virtual_network.vnat20.name
+  remote_virtual_network_id = azurerm_virtual_network.vnat10.id
+}
