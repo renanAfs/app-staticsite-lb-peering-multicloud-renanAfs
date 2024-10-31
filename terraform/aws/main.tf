@@ -14,14 +14,14 @@ resource "aws_internet_gateway" "igw10" {
 
 resource "aws_subnet" "subnet-pub" {
   vpc_id                  = aws_vpc.vpc10.id
-  cidr_block              = "10.0.5.0/24"
+  cidr_block              = "10.0.1.0/24"
   map_public_ip_on_launch = "true"
   availability_zone       = "us-east-1a"
 }
 
 resource "aws_subnet" "subnet-priv" {
   vpc_id            = aws_vpc.vpc20.id
-  cidr_block        = "10.0.6.0/24"
+  cidr_block        = "20.0.1.0/24"
   availability_zone = "us-east-1c"
 }
 
