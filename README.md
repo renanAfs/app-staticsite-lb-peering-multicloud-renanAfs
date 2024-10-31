@@ -16,7 +16,7 @@ a url do pipeline executado para o Item 02 abaixo
 
 # Desenho da solução
 
-![image](https://github.com/user-attachments/assets/235d8489-3a43-4aa7-92c1-c2d6745ea1fd)
+![alt text](image.png)
 
 
 ______________________________________________________________________________
@@ -36,3 +36,6 @@ Crie uma máquina virtual na sub-rede pública da vNet 10 na Azure e uma máquin
 ATENÇÃO !!!
 Itens não evidenciados na entrega terão deflatores na avaliação.
 Destrua os recursos criados na AWS para evitar custos desnecessários.
+
+
+[def]: https://github.com/user-attachments/assets/235d8489-3a43-4aa7-92c1-c2d6745ea1fd
