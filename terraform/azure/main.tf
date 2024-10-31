@@ -96,7 +96,7 @@ resource "azurerm_network_security_group" "nsgvm-priv" {
   }
 }
 
-resource "azurerm_subnet_network_security_group_association" "nsgsubnet1a" {
+resource "azurerm_subnet_network_security_group_association" "nsgsubnet1b" {
   subnet_id                 = azurerm_subnet.subnet-priv.id
   network_security_group_id = azurerm_network_security_group.nsgvm.id
 }
