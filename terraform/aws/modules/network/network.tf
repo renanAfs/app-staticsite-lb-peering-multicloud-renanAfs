@@ -69,4 +69,3 @@ resource "aws_security_group" "sg-priv" {
     cidr_blocks = ["10.0.0.0/16"]
   }
 }
-
